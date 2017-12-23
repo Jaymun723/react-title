@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../lib'
+import Title from './lib'
 import { render } from 'react-dom'
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
         <h1>Page title</h1>
 
         {/* Page title */}
-        <Title>Page title</Title>
+        <Title value={0} />
       </div>
     )
   }
